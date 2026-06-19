@@ -1,27 +1,27 @@
-# Longbridge Homebrew Tap
+# LongPort Homebrew Tap
 
-Official [Homebrew](https://brew.sh) tap for [Longbridge](https://longbridge.com) tools.
+Official [Homebrew](https://brew.sh) tap for [LongPort](https://longportapp.com) tools.
 
 ## Install
 
 ```bash
-brew install --cask longbridge/tap/longbridge-terminal
+brew install --cask longportapp/tap/longport-terminal
 ```
 
 ## Usage
 
 ```bash
-longbridge -h
+longport -h
 ```
 
 ## Packages
 
 | Cask | Description |
 |------|-------------|
-| `longbridge-terminal` | Longbridge Terminal CLI for US and HK stock market data and trading |
+| `longport-terminal` | LongPort CLI for US and HK stock market data and trading |
 
 ## Update
 
 ```bash
-brew upgrade --cask longbridge-terminal
+brew upgrade --cask longport-terminal
 ```
