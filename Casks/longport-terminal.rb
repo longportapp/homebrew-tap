@@ -1,17 +1,17 @@
 cask "longport-terminal" do
-  version "0.23.0"
+  version "0.23.3"
 
   on_arm do
     url "https://github.com/longportapp/longport-terminal/releases/download/v0.23.3/longport-terminal-darwin-arm64.tar.gz"
-    sha256 "a411fa26950ffbc1f31dae1ef8191263014e251dd1b7cd226ea7e1b6415760bc"
+    sha256 "94552903c6771920109202cf92945649a65c252595d648e4bc4d5723ac4b140c"
   end
 
   on_intel do
     url "https://github.com/longportapp/longport-terminal/releases/download/v0.23.3/longport-terminal-darwin-amd64.tar.gz"
-    sha256 "747f068e73e81e74ee0fb6e63ace7a109a4146b8cc9255dae0ca4f4d160a9eb1"
+    sha256 "f074a826467c77a1ef64d666382d1f7d0b8a2f65f1855df0fd3b1c7a152dff41"
   end
 
-  desc "Longbridge Terminal CLI for US and HK stock market data and trading"
+  desc "LongPort Terminal CLI for US and HK stock market data and trading"
   homepage "https://github.com/longportapp/longport-terminal"
 
   binary "longport"
